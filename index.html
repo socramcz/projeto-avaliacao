@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="pg.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Prova Final</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <div class="container-fluid" id="navcontainerNav">
+            <a class="navbar-brand" href="#">
+                <img src="logo-lion.png" id="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Páginas</a>
+                        <ul class="dropdown-menu dropdown-toggle" aria-labelledby="pagesDropdown">
+                            <a class="dropdown-item" href="#">Landing Pages</a>
+                            <p class="text-muted" style="max-width: inherit">dilasugdbuias asduiohasui asdjbsjhjwh
+                                sadhjkas</p>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <a class="dropdown-item" href="#">App Pages</a>
+                            <p class="text-muted" style="max-width: inherit">dilasugdbuias asduiohasui asdjbsjhjwh
+                                sadhjkas</p>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <a class="dropdown-item" href="#">Inner Pages</a>
+                            <p class="text-muted" style="max-width: inherit">dilasugdbuias asduiohasui asdjbsjhjwh
+                                sadhjkas</p>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Caracteristicas
+                            <ul class="dropdown-menu dropdown-menu" aria-labelledby="dropdown03">
+                                <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+                                <li><a class="dropdown-item" href="#">Wingman</a></li>
+                            </ul>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav" id="navbar-cadastro">
+                    <li class="nav-item" id="navbar-navconexao">
+                        <a class="nav-link active" aria-current="page" href="#">Documentos</a>
+                    </li>
+                    <li class="nav-item" id="navbar-navconexao">
+                        <a class="nav-link active" aria-current="page" href="#">Versão
+                            <span class="badge badge-secondary">v1.3.0</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="navbar-navconexao">
+                        <a class="nav-link active btn btn-primary" aria-current="page" href="#">Entrar</a>
+                    </li>
+                    <li class="nav-item" id="navbar-navconexao">
+                        <a class="nav-link active btn btn-primary" aria-current="page" href="#">Registre-se</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="main-container" id="mainSection0">
+            <div class="container" id="apresent">
+                <div class="row align-items-center">
+                    <div class="col-md-6 position-relative" id="main-content">
+                        <h1 class="display-4 align-self-center" id="maincontent-title">Os reis da selva</h1>
+                        <p class="apresentação" id="maincontent-about">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley
+                            of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries,
+                            but also the leap into electronic typesetting, remaining essentially unchanged.
+                        </p>
+                        <a href="#" class="btn btn-primary">Veja agora</a>
+                        <a href="#" class="btn btn-primary">Explorar<i class="icon-chevron-right"></i></a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="main-Carrosel" id="mainSlider" data-bs-ride="carousel">
+                            <div id="carouselExampleControls" class="carousel slide carousel-fade"
+                                data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0"
+                                        class="active"></button>
+                                    <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1"></button>
+                                    <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="4000">
+                                        <img src="_img/banner1.jpg" id="imgBanner" class="d-block w-100"
+                                            alt="familia leão">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="4000">
+                                        <img src="_img/banner2.jpg" id="imgBanner" class="d-block w-100" alt="leão rei">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="4000">
+                                        <img src="_img/banner3.jpg" id="imgBanner" class="d-block w-100"
+                                            alt="leão reinando">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="main-container1-1">
+            <div class="container" id="main-container1">
+                <div class="row justify-content-center text-center" id="sobre">
+                    <div class="col-md-8">
+                        <span class="tittle-decorative">ADENTRANDO NA SELVA</span>
+                        <h2 class="destaque align-middle text-center" id="sobre-title1">Conheça nossa majestade</h2>
+                        <span class="destaque align-middle text-center" id="sobre-subtitle1">Considerado o rei da selva
+                            graças à sua impressionante crina, destemor, poder e força.</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 text-left align-middle destaque-texto" id="section1-img">
+                        <a href="#">
+                            <img src="_img/banner1.1.jpg" class="card" id="section1-image" class="img-fluid">
+                        </a>
+                        <h5 id="section1-title">Rei</h5>
+                        <p class="destaque align-middle text-left" id="section1-subtitle">
+                            É certamente o felino mais famoso da savana. Por causa de seu porte imponente, majestoso e
+                            do rugido feroz, que dá medo, assim como sua juba real.
+                        </p>
+                        <a href="#">Veja mais ></a>
+                    </div>
+                    <div class="col-md-4 text-left align-middle destaque-texto" id="section1-img">
+                        <a href="#">
+                            <img src="_img/banner2.1.jpg" class="card" id="section1-image" class="img-fluid">
+                        </a>
+                        <h5 id="section1-title">Território</h5>
+                        <p class="destaque align-middle text-left" id="section1-subtitle">
+                            Extremamente territorialista e prefere ser o unico macho, seu único trabalho é defender o
+                            seu território de machos estranhos ao grupo.
+                        </p>
+                        <a href="#">Veja mais ></a>
+                    </div>
+                    <div class="col-md-4 text-left align-middle destaque-texto" id="section1-img">
+                        <a href="#">
+                            <img src="_img/banner3.1.jpg" class="card" id="section1-image" class="img-fluid">
+                        </a>
+                        <h5 id="section1-title">Caça</h5>
+                        <p class="destaque align-middle text-left" id="section1-subtitle">
+                            Eles são excelentes predadores e ocupam o topo de suas cadeias alimentares. Suas presas mais
+                            comuns são as zebras, búfalos, javalis, antílopes e veados.
+                        </p>
+                        <a href="#">Veja mais ></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white" id="main-container2">
+            <div class="container">
+                <div class="row justify-content-around align-items-center">
+                    <div class="col-12 col-md-6 col-lg-5 text-left text-md-left">
+                        <span class="tittle-decorative2">FAMÍLIA</span>
+                        <h3 class="h1" id="section2-title">Relação do grupo</h3>
+                        <p class="destaque" id="section2-subtitle">
+                            Geralmente, nesses grupos, encontram-se de três a quatro machos, e os demais são fêmeas e
+                            seus filhotes. Os filhotes fêmeas tendem a permanecer no grupo, enquanto os machos podem
+                            formar outros bandos, roubando a liderança de um leão que liderava outro grupo.
+                        </p>
+                        <a href="#">Veja mais ></a>
+                    </div>
+                    <div class="col-md-6 align-items-center text-center">
+                        <img src="_img/section2-banner.png" class="img-fluid-shadow" id="section2-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white" id="main-container3">
+            <div class="container">
+                <div class="row justify-content-around align-items-center">
+                    <div class="col-md-6 align-items-center">
+                        <img src="_img/section3-banner.jpg" class="img-fluid-shadow" id="section3-image">
+                    </div>
+                    <div class="col-12 col-md-5 order-md-2 mb-5 mb-md-0">
+                        <span class="tittle-decorative3">NATUREZA</span>
+                        <h3 class="h1" id="section3-title">Atualmente</h3>
+                        <p class="destaque text-left" id="section3-subtitle">
+                            A maior parte dos leões que hoje vive na natureza são encontrados nas savanas da África e
+                            demais regiões semi-desérticas. Ele já foi extinto de muitas áreas de florestas da Ásia e
+                            Europa. Eles vivem em grupos de até 40 indivíduos, sendo em sua maioria fêmeas, lideradas
+                            pelo macho alfa.
+                        </p>
+                        <a href="#">Veja mais ></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="main-container4">
+            <div class="container">
+                <div class="row justify-content-center align-items-center" id="section4-mufasa">
+                    <div class="col-12 col-md-2">
+                        <div class="mufasa-aba">
+                            <img src="_img/section4-media.png" class="avatar avatar-lg" id="section4-image">
+                        </div>
+                    </div>
+                    <div class="col-md-10" id="mufasa-comment">
+                        <p class="h2 destaque text-left">
+                            "O tempo de um reinado se levanta e se põe como o sol. Um dia, Simba, o sol vai se pôr
+                            como o meu tempo aqui e vai se levantar com o seu, como um novo rei."
+                        </p>
+                        <span id="mufasa-subcomment">- Mufasa.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white" id="main-container5">
+            <div class="container">
+                <div class="row justify-content-center text-center" id="sobre5">
+                    <div class="col-md-9">
+                        <span class="tittle-decorative">SAINDO DA SELVA</span>
+                        <h2 class="destaque align-middle text-center" id="sobre-title1">Mais algumas coisinhas</h2>
+                        <span class="destaque align-middle text-center" id="sobre-subtitle1">Antes de partir, conheça
+                            algumas curiosidades de animal maravilhoso e venha se surpreender.</span>
+                    </div>
+                </div>
+
+                <div class="row justify-content-around align-items-center text-left" id="conteudo5">
+                    <div class="col-12 col-md-5 order-md-2 mb-5 mb-md-0">
+                        <ul id="curiosidades">
+                            <div id="content-final">
+                                <h5 id="contentfinal-title">Lider do bando</h5>
+                                <p id="contentfinal-subtitle">Por incrivel que pareça a liderança do grupo é sempre
+                                    feminina. Em media o bando tem 13 fêmeas, elas mantêm uma sociedade matriarcal e
+                                    dividem as tarefas comunitariamente, cuidando dos filhotes umas das outras. Além
+                                    disso, são elas que saem para a embostar e caçar as presas.
+                                </p>
+                            </div>
+                            <div id="content-final">
+                                <h5 id="contentfinal-title">Idade dos leões</h5>
+                                <p id="contentfinal-subtitle">você sabia que quanto mais escura é a cor da juba, mais
+                                    velho é o leão? Essa talvez seja uma das curiosidades sobre leão mais incríveis!
+                                </p>
+                            </div>
+                            <div id="content-final">
+                                <h5 id="contentfinal-title">Responsabilidade desde cedo</h5>
+                                <p id="contentfinal-subtitle">A partir de 11 meses de vida, os leões já podem ir em
+                                    busca da caça, porém sempre ao lado das mães. Isso porque, nessa idade, eles ainda
+                                    não sabem se livrar de predadores como hienas, leopardos e chacais.
+                                </p>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <img alt="image" class="image-fluid shadow justify-content-center text-center"
+                            src="_img/banner-final1.jpg" id="imgbanner-final">
+                    </div>
+                </div>
+
+                <div class="row justify-content-center text-center" id="conteudo5-final">
+                    <div class="col-lg-4 col-md-5">
+                        <h5 id="contentfinal-title">Chegamos ao final...</h5>
+                        <p id="contentfinal-subtitle">Obrigado por visitar meu site, espero ter passado um pouco de
+                            conteudo sobre este lindo animal.<br> Tome cuidado na Selva !!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="main-container6">
+            <svg class="linha-inclinada" viewBox=" 0 0 100 8">
+                <polygon fill="#FFFFFF" points="0 0 100 0 100 8"></polygon>
+            </svg>
+            <div class="container" id="section6-1">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-4 col-md-5">
+                        <h3 class="h1">Voltar para o inicio</h3>
+                        <a href="#mainSection0" class="btn btn-lg btn-light ">Clique Aqui</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-dark" id="footer">
+            <footer>
+                <div class="container" id="container-footer">
+                    <div class="row">
+                        <div class="col-md-3 justify-content-center text-center">
+                            <img src="logo-lion.png" id="logo-footer">
+                        </div>
+                        <div class="col-md-9" id="cor-footer">
+                            <span class="h5" id="titulo-footer">Site sobre leões com informações básicas, mas
+                                suficientes</span>
+
+                            <div class="row">
+                                <div class="col-lg-3" id="subtitulo-footer">
+                                    <h6>Navegar</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="index.html">Pagina inicial</a>
+                                        </li>
+                                        <li>
+                                            <a href="#mainSection0">Carrosel</a>
+                                        </li>
+                                        <li>
+                                            <a href="#main-container1-1">Habilidades</a>
+                                        </li>
+                                        <li>
+                                            <a href="#main-container2">Atualmente</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3" id="subtitulo-footer">
+                                    <h6>Navegar</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="index.html">Pagina inicial</a>
+                                        </li>
+                                        <li>
+                                            <a href="#mainSection0">Carrosel</a>
+                                        </li>
+                                        <li>
+                                            <a href="#main-container1-1">Habilidades</a>
+                                        </li>
+                                        <li>
+                                            <a href="#main-container2">Atualmente</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3" id="subtitulo-footer">
+                                    <h6>Navegar</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="index.html">Pagina inicial</a>
+                                        </li>
+                                        <li>
+                                            <a href="#mainSection0">Carrosel</a>
+                                        </li>
+                                        <li>
+                                            <a href="#main-container1-1">Habilidades</a>
+                                        </li>
+                                        <li>
+                                            <a href="#main-container2">Atualmente</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3" id="subtitulo-footer">
+                                    <h6>Navegar</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="index.html">Pagina inicial</a>
+                                        </li>
+                                        <li>
+                                            <a href="#mainSection0">Carrosel</a>
+                                        </li>
+                                        <li>
+                                            <a href="#main-container1-1">Habilidades</a>
+                                        </li>
+                                        <li>
+                                            <a href="#main-container2">Atualmente</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
